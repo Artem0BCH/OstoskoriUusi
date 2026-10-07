@@ -1,0 +1,48 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    background-color: #2a2ad1;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 320px;
+    justify-content: center;
+}
+
+li:hover {
+    background-color: #bf3b3b;
+}
